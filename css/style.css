@@ -1,0 +1,136 @@
+body {
+    background-image: linear-gradient(to top right, rgba(32, 89, 136, 0.884), rgb(0, 255, 255));
+    background-repeat: no-repeat;
+    margin: 0;
+    font-size: 100%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+.avatar {
+    object-fit: cover;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lista {
+    padding: 18px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.foto {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px #000;
+    letter-spacing: -0.1px;
+}
+
+h3 {
+    font-size: 0.9em;
+    letter-spacing: -0.3px;
+    text-shadow: 1px 1px 1.5px rgb(0, 0, 0);
+}
+
+h4 {
+    font-size: 0.9em;
+    letter-spacing: -0.4px;
+}
+
+.btn1 {
+    position: absolute;
+    top: 16em;
+    left: 52%;
+    background-image: url("../img/add.png");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    width: 40px;
+    border-radius: 900px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.botao {
+    background: none repeat scroll 0 0 #FFFFFF;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.btn1:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.btn {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 1em;
+    text-shadow: 0.5px 0.5px 1px rgb(0, 0, 0);
+    color: rgba(36, 117, 184, 0.9);
+    background-color: white;
+    border: 3px solid;
+    background-clip: padding-box;
+    border-image-slice: 49;
+    padding: 16px 28px;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(-45deg, rgba(29, 255, 240, 0.6) 0%, rgba(15, 191, 255, 0.5) 100%) border-box;
+    opacity: 0.8;
+}
+
+.corpo {
+    text-align: center;
+}
+
+.under {
+    margin: 0;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=password] {
+    width: 50%;
+    padding: 18px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    display: inline-block;
+    border: 3px solid;
+    margin: 6px;
+    background-clip: padding-box;
+    border-radius: 100px;
+    background: #fdfdfd;
+    border-color: rgba(36, 117, 184, 0.884);
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
